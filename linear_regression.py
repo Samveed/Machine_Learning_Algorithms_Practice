@@ -8,7 +8,7 @@ def update(x, y, alpha):
     theta_1 = np.random.rand(1,1)
 
     epoch = 0
-    while(epoch<2):
+    while(epoch<5):
 
         h_x = theta_0 + theta_1*x
         error = h_x - y
